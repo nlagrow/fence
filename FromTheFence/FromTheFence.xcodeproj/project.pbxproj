@@ -33,6 +33,9 @@
 		749A02AB181C4630007CB374 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749A02AA181C4630007CB374 /* StoreKit.framework */; };
 		749A02AD181C4639007CB374 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749A02AC181C4638007CB374 /* SystemConfiguration.framework */; };
 		74CCFC02181C4C33009CB56B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CCFC01181C4C33009CB56B /* Parse.framework */; };
+		74CCFC18181C5AF9009CB56B /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CCFC15181C5AF9009CB56B /* history.png */; };
+		74CCFC19181C5AF9009CB56B /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CCFC16181C5AF9009CB56B /* home.png */; };
+		74CCFC1A181C5AF9009CB56B /* take.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CCFC17181C5AF9009CB56B /* take.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +82,9 @@
 		749A02AA181C4630007CB374 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		749A02AC181C4638007CB374 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		74CCFC01181C4C33009CB56B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		74CCFC15181C5AF9009CB56B /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history.png; sourceTree = "<group>"; };
+		74CCFC16181C5AF9009CB56B /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		74CCFC17181C5AF9009CB56B /* take.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = take.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,11 +92,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				749A02A5181C461B007CB374 /* MobileCoreServices.framework in Frameworks */,
 				749A02AD181C4639007CB374 /* SystemConfiguration.framework in Frameworks */,
 				749A02AB181C4630007CB374 /* StoreKit.framework in Frameworks */,
 				749A02A9181C4628007CB374 /* Security.framework in Frameworks */,
 				749A02A7181C4623007CB374 /* QuartzCore.framework in Frameworks */,
-				749A02A5181C461B007CB374 /* MobileCoreServices.framework in Frameworks */,
 				749A02A3181C4613007CB374 /* libz.1.1.3.dylib in Frameworks */,
 				74CCFC02181C4C33009CB56B /* Parse.framework in Frameworks */,
 				749A02A1181C460A007CB374 /* CoreLocation.framework in Frameworks */,
@@ -176,6 +182,9 @@
 		749A0261181C3F93007CB374 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				74CCFC15181C5AF9009CB56B /* history.png */,
+				74CCFC16181C5AF9009CB56B /* home.png */,
+				74CCFC17181C5AF9009CB56B /* take.png */,
 				749A0262181C3F93007CB374 /* FromTheFence-Info.plist */,
 				749A0263181C3F93007CB374 /* InfoPlist.strings */,
 				749A0266181C3F93007CB374 /* main.m */,
@@ -279,6 +288,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74CCFC18181C5AF9009CB56B /* history.png in Resources */,
+				74CCFC19181C5AF9009CB56B /* home.png in Resources */,
+				74CCFC1A181C5AF9009CB56B /* take.png in Resources */,
 				749A0276181C3F93007CB374 /* Images.xcassets in Resources */,
 				749A0265181C3F93007CB374 /* InfoPlist.strings in Resources */,
 				749A026E181C3F93007CB374 /* Main.storyboard in Resources */,

@@ -10,5 +10,8 @@
 #import <Parse/Parse.h>
 
 @interface FTFHomeViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *currentOrgLabel;
+@property (strong, nonatomic) IBOutlet UITextView *currentOrgText;
+@property (strong, nonatomic) IBOutlet UIImageView *currentOrgImage;
 
 @end
