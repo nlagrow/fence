@@ -23,7 +23,6 @@
 		749A0287181C3F93007CB374 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 749A0285181C3F93007CB374 /* InfoPlist.strings */; };
 		749A0289181C3F93007CB374 /* FromTheFenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 749A0288181C3F93007CB374 /* FromTheFenceTests.m */; };
 		749A0295181C43CE007CB374 /* FTFHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749A0293181C43CE007CB374 /* FTFHistoryViewController.m */; };
-		749A029B181C45BF007CB374 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749A029A181C45BF007CB374 /* Parse.framework */; };
 		749A029D181C45F5007CB374 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749A029C181C45F5007CB374 /* AudioToolbox.framework */; };
 		749A029F181C45FD007CB374 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749A029E181C45FD007CB374 /* CFNetwork.framework */; };
 		749A02A1181C460A007CB374 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749A02A0181C460A007CB374 /* CoreLocation.framework */; };
@@ -33,6 +32,7 @@
 		749A02A9181C4628007CB374 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749A02A8181C4628007CB374 /* Security.framework */; };
 		749A02AB181C4630007CB374 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749A02AA181C4630007CB374 /* StoreKit.framework */; };
 		749A02AD181C4639007CB374 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749A02AC181C4638007CB374 /* SystemConfiguration.framework */; };
+		74CCFC02181C4C33009CB56B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CCFC01181C4C33009CB56B /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +69,6 @@
 		749A0288181C3F93007CB374 /* FromTheFenceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FromTheFenceTests.m; sourceTree = "<group>"; };
 		749A0292181C43CD007CB374 /* FTFHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTFHistoryViewController.h; sourceTree = "<group>"; };
 		749A0293181C43CE007CB374 /* FTFHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTFHistoryViewController.m; sourceTree = "<group>"; };
-		749A029A181C45BF007CB374 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		749A029C181C45F5007CB374 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		749A029E181C45FD007CB374 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		749A02A0181C460A007CB374 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -79,6 +78,7 @@
 		749A02A8181C4628007CB374 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		749A02AA181C4630007CB374 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		749A02AC181C4638007CB374 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		74CCFC01181C4C33009CB56B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,12 +92,12 @@
 				749A02A7181C4623007CB374 /* QuartzCore.framework in Frameworks */,
 				749A02A5181C461B007CB374 /* MobileCoreServices.framework in Frameworks */,
 				749A02A3181C4613007CB374 /* libz.1.1.3.dylib in Frameworks */,
+				74CCFC02181C4C33009CB56B /* Parse.framework in Frameworks */,
 				749A02A1181C460A007CB374 /* CoreLocation.framework in Frameworks */,
 				749A025D181C3F93007CB374 /* CoreGraphics.framework in Frameworks */,
 				749A029F181C45FD007CB374 /* CFNetwork.framework in Frameworks */,
 				749A029D181C45F5007CB374 /* AudioToolbox.framework in Frameworks */,
 				749A025F181C3F93007CB374 /* UIKit.framework in Frameworks */,
-				749A029B181C45BF007CB374 /* Parse.framework in Frameworks */,
 				749A025B181C3F93007CB374 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +137,7 @@
 		749A0259181C3F93007CB374 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				74CCFC01181C4C33009CB56B /* Parse.framework */,
 				749A02AC181C4638007CB374 /* SystemConfiguration.framework */,
 				749A02AA181C4630007CB374 /* StoreKit.framework */,
 				749A02A8181C4628007CB374 /* Security.framework */,
@@ -146,7 +147,6 @@
 				749A02A0181C460A007CB374 /* CoreLocation.framework */,
 				749A029E181C45FD007CB374 /* CFNetwork.framework */,
 				749A029C181C45F5007CB374 /* AudioToolbox.framework */,
-				749A029A181C45BF007CB374 /* Parse.framework */,
 				749A025A181C3F93007CB374 /* Foundation.framework */,
 				749A025C181C3F93007CB374 /* CoreGraphics.framework */,
 				749A025E181C3F93007CB374 /* UIKit.framework */,
@@ -435,6 +435,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/nicklagrow/Documents/iOS/FromTheFence,
+					/Users/nicklagrow/Documents/iOS/fence/FromTheFence,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FromTheFence/FromTheFence-Prefix.pch";
@@ -454,6 +455,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/nicklagrow/Documents/iOS/FromTheFence,
+					/Users/nicklagrow/Documents/iOS/fence/FromTheFence,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FromTheFence/FromTheFence-Prefix.pch";
@@ -525,6 +527,7 @@
 				749A028E181C3F93007CB374 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		749A028F181C3F93007CB374 /* Build configuration list for PBXNativeTarget "FromTheFenceTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +536,7 @@
 				749A0291181C3F93007CB374 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
